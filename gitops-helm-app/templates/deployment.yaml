@@ -4,7 +4,7 @@ metadata:
   name: {{ .Chart.Name }}
   labels:
     app: {{ .Chart.Name }}
-spec:
+spec: 
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
